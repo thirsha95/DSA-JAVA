@@ -2,7 +2,6 @@
 Problem: Subarray Sum Equals K
 Platform: LeetCode
 Topic: Arrays, HashMap, Prefix Sum
-Difficulty: Medium
 
 Approach:
 - Use Prefix Sum technique with a HashMap

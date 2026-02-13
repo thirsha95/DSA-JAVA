@@ -1,4 +1,3 @@
-
 /*
 Problem: Majority Element (Boyer-Moore Voting Algorithm)
 Platform: LeetCode
