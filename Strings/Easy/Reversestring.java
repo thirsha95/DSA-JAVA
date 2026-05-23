@@ -1,4 +1,4 @@
-package Strings.BASICS;
+package Strings.Easy;
 import java.util.*;
 public class Reversestring{
 public  static void main(String[] args){
