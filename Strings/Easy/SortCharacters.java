@@ -1,3 +1,7 @@
+/*
+Program: Sort Characters Using Frequency Array
+Description: Counts frequency of each character and rebuilds the string in sorted order (a to z).
+*/
 package Strings.Easy;
 import java.util.*;
 public class SortCharacters {
@@ -8,10 +12,10 @@ public class SortCharacters {
        int[] freq = new int[26];
        for(char ch : str.toCharArray()){
           if(ch >= 'A' && ch<= 'Z'){
-        freq[ch - 'A']++;
+        freq[ch - 'A']++;             // convert character to index
        }
        else if(ch >= 'a' && ch<= 'z'){
-        freq[ch - 'a']++;
+        freq[ch - 'a']++;        
        }
        }
 
