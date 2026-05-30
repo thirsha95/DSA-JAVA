@@ -1,3 +1,13 @@
+/*
+Program: Reverse Words in a String
+
+Problem:
+Reverse the order of words in a string.
+
+Description:
+Remove extra spaces and return the words in reverse order.
+*/
+
 package Strings.Medium;
 import java.util.*;
 public class reverseWords {
