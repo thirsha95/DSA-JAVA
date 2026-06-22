@@ -1,4 +1,4 @@
-package arrays.Medium;
+package Arrays.Medium;
 class ProductofArrayExceptSelf{
    public static void main(String[] args) {
    int[] nums = {-1,1,0,-3,3};
