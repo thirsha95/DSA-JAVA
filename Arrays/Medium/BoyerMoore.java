@@ -11,7 +11,7 @@ Approach:
 - Candidate at the end is the majority element (appears > n/2 times)
 */
 
-package arrays;
+package Arrays.Medium;
 
 public class BoyerMoore {
     public static void main (String[] args){
