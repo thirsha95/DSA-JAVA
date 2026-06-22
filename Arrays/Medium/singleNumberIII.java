@@ -17,7 +17,7 @@ Description:
 Time Complexity: O(N)
 Space Complexity: O(1)
 */
-package arrays.Medium;
+package Arrays.Medium;
 
 import java.util.Scanner;
 
