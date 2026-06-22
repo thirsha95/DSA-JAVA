@@ -1,4 +1,4 @@
-package arrays.Easy;
+package Arrays.Easy;
 /*
 Program: Find and Count Occurrences of an Element in an Array
 
