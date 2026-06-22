@@ -1,4 +1,4 @@
-package arrays.Easy;
+package Arrays.Easy;
 /*Program: Find an Element in an Array
 
 Description:
