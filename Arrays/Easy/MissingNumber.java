@@ -1,4 +1,4 @@
-package arrays.Easy;
+package Arrays.Easy;
 /*
 Program: Find the Missing Number in an Array
 
