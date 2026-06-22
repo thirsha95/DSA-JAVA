@@ -11,7 +11,7 @@ Output: 6
 Subarray: [4,-1,2,1]
 */
 
-package arrays.Medium;
+package Arrays.Medium;
 
 public class Maximumsubarry {
   
