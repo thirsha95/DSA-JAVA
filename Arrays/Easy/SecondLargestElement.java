@@ -1,4 +1,4 @@
-package arrays.Easy;
+package Arrays.Easy;
 import java.util.*;
 public class SecondLargestElement {
     public static void main (String[] args){
