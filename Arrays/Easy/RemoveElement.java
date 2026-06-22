@@ -7,7 +7,7 @@
 // i -> read pointer (traverses array)
 // k -> write pointer (stores valid elements)
 // Copy elements not equal to val to front
-package arrays.Easy;
+package Arrays.Easy;
 
 public class RemoveElement {
     
