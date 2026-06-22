@@ -1,4 +1,4 @@
-package arrays.Easy;
+package Arrays.Easy;
 /*
 Program: Find Maximum Element in an Array
 
