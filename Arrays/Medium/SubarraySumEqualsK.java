@@ -13,7 +13,7 @@ Approach:
 Time Complexity: O(n)
 Space Complexity: O(n)
 */
-package arrays.Medium;
+package Arrays.Medium;
 
 import java.util.HashMap;
 
