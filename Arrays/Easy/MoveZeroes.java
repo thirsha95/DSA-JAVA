@@ -3,7 +3,7 @@ Program: MoveZeroes.java
 Problem: Move Zeroes
 Description: Moves all zeros to the end of the array while maintaining the relative order of non-zero elements.
 */
-package arrays.Easy;
+package Arrays.Easy;
 import java.util.*;
 public class MoveZeroes {
     public static void main(String[] args){
