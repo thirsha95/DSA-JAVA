@@ -71,6 +71,7 @@ public class SpiralMatrix {
        left++;
     }
   }
+    dir = (dir + 1) % 4;
  }
     System.out.print(result);  
 
