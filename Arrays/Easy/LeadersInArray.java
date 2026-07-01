@@ -1,3 +1,9 @@
+/*
+ * Program: LeadersInArray.java
+ * Problem: Leaders in an Array
+ * Description: Find all leaders in an array. An element is a leader if it is greater than all the elements to its right. The last element is always a leader.
+ */
+
 package Arrays.Easy;
 import java.util.*;
 public class LeadersInArray{
