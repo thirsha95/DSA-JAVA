@@ -1,3 +1,27 @@
+/*
+Program: ProductofArrayExceptSelf.java
+
+Problem:
+Given an integer array nums, return an array answer such that
+answer[i] is equal to the product of all the elements of nums
+except nums[i], without using division.
+
+Description:
+1. Compute the prefix product for every index.
+2. Compute the suffix product for every index.
+3. For each position:
+   - First element = suffix product of index 1.
+   - Last element = prefix product of index n-2.
+   - Middle elements = prefix(i-1) × suffix(i+1).
+4. Return the resulting product array.
+
+Sample Input:
+nums = [-1, 1, 0, -3, 3]
+
+Sample Output:
+[0, 0, 9, 0, 0]
+*/
+
 package Arrays.Medium;
 class ProductofArrayExceptSelf{
    public static void main(String[] args) {

@@ -46,3 +46,5 @@ public static int maxisum(int[] nums){
 
     
 }
+// If the running sum becomes negative, discard it and start a new subarray.
+// Otherwise, keep adding the array elemnets arr[i];

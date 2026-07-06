@@ -1,12 +1,13 @@
 /*
- * Program        : RunningSumOf1DArray.java
- * Problem        : Running Sum of 1D Array
- * Description    : Given an integer array nums, return the running sum of the array,
- *                  where each element at index i is equal to the sum of all elements
- *                  from index 0 to i.
+ * Program       : RunningSumOfArray.java
+ * Problem       : Running Sum of 1D Array (Prefix Sum Construction)
+ * Description   : Build a prefix sum array where each element stores the cumulative sum from index 0 to the current index.
  *
- * Sample Input   : nums = [1,2,3,4]
- * Sample Output  : [1,3,6,10]
+ * Sample Input  :
+ * nums = [1, 2, 3, 4]
+ *
+ * Sample Output :
+ * Prefix Sum = [1, 3, 6, 10]
  */
 package PrefixSum.Easy;
 import java.util.*;
