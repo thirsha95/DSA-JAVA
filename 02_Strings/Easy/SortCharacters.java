@@ -12,7 +12,7 @@ public class SortCharacters {
        int[] freq = new int[26];
        for(char ch : str.toCharArray()){
           if(ch >= 'A' && ch<= 'Z'){
-        freq[ch - 'A']++;             // convert character to index
+        freq[ch - 'A']++;             // convert character to index 'ch' - 'a'
        }
        else if(ch >= 'a' && ch<= 'z'){
         freq[ch - 'a']++;        
@@ -22,7 +22,7 @@ public class SortCharacters {
        StringBuilder res =  new StringBuilder();
        for(int i=0; i<26; i++){
          while(freq[i] > 0 ){
-            res.append((char)(i + 'a'));
+            res.append((char)(i + 'a')); //Index → Character i + 'a'
             freq[i]--;   }
        }
        System.out.println(res.toString());

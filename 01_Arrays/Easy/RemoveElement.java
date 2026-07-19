@@ -47,7 +47,7 @@ public class RemoveElement {
         int[] ans = new int[p];
 
         // Copy valid elements
-        for (int i = 0; i < p; i++) {
+        for (int i = 0; i < p; i++) { //no need the one more raray can use return nums[i];
             ans[i] = nums[i];
         }
 

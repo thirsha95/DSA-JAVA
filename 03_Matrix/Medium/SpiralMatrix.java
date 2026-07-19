@@ -45,8 +45,8 @@ public class SpiralMatrix {
      while(top<=bottom && left<=right){
         switch(dir){
             case 0 -> {
-        for(int i=left; i<=right; i++){ //left to right
-         result.add(matrix[top][i]);
+        for(int i=left; i<=right; i++){ //left to right :You are moving across columns:
+         result.add(matrix[top][i]); // Since you're staying on the same row, the row must be fixed.
         }
         top++;
     }

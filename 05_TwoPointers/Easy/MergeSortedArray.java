@@ -11,6 +11,28 @@
  *
  * Time Complexity: O(m+n)
  * Space Complexity: O(1)
+ * 
+  * Input Format:
+ * m n
+ * nums1 (m sorted elements)
+ * nums2 (n sorted elements)
+ *
+ * Sample Input:
+ * 3 3
+ * 1 2 3
+ * 2 5 6
+ *
+ * Sample Output:
+ * 1 2 2 3 5 6
+ *
+ * Example:
+ * nums1 = [1,2,3,0,0,0]
+ * nums2 = [2,5,6]
+ *
+ * After Merge:
+ * nums1 = [1,2,2,3,5,6]
+ * -------------------------------------------------------
+ */
  */
 
 

@@ -21,6 +21,8 @@ public class LowestNumberFormation {
     public static void main(String[] args){
      Scanner sc = new Scanner(System.in);
     int num = sc.nextInt();
+
+
     int temp = num;
     int length =0;// creating n : length or size for array
     while( temp >0){
@@ -32,8 +34,8 @@ public class LowestNumberFormation {
    //now put nums value as array elements
 
 
-   for(int i = length - 1; i >= 0; i--){
-    arr[i] = temp % 10;
+   for(int i = length - 1; i >= 0; i--){ //%10 always gives the last digit first, so the digits come out in reverse order.
+    arr[i] = temp % 10; ///%10 always gives the last digit first, so the digits come out in reverse order.
     temp = temp/10;
    }
   

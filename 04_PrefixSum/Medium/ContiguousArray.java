@@ -16,7 +16,7 @@
  * Key Prefix Sum Concept:
  * - Prefix Sum = Sum of elements from index 0 to i.
  * - If the same prefix sum is seen again:
- *
+ *  
  *      Current Prefix Sum - Previous Prefix Sum = 0
  *
  *   Therefore, the elements between those two indices have sum = 0.
