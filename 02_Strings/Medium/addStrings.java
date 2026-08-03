@@ -14,6 +14,7 @@ public class addStrings {
       int i = num1.length()-1;
       int j = num2.length()-1;
       int carry =0;
+      
       StringBuilder res = new StringBuilder();
       while(i >= 0 || j >=0 ||carry > 0){ //works if any one is false also
        int sum = carry;

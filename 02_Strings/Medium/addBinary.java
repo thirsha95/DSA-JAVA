@@ -2,6 +2,22 @@
 Program     : Add Binary
 Problem     : LeetCode 67
 Description : Add two binary strings using digit-by-digit addition with carry in base 2 system. Simulates manual binary addition from right to left.
+ 
+* Key Idea    :
+ * In binary addition:
+ * digit = sum % 2
+ * carry = sum / 2
+ *
+ * Sample Input :
+ * 1011
+ * 1101
+ *
+ * Sample Output:
+ * 11000
+ *
+ * Time Complexity  : O(max(N, M))
+ * Space Complexity: O(max(N, M))
+ */
 */
 package Strings.Medium;
 import java.util.*;

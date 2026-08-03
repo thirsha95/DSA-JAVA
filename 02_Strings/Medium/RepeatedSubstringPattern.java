@@ -88,7 +88,7 @@ public class RepeatedSubstringPattern {
     int n = str.length();
     boolean found = false;
     for(int len=1; len<=n/2; len++){   // If the length cannot divide the string completely,
-          if(n % len !=0){           // it cannot form the original string.
+          if(n % len !=0){           // it cannot form the original string. leftover character exists
           continue;
         }
       String subparts = str.substring(0,len);

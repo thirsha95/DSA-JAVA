@@ -6,16 +6,16 @@ package Strings.Easy;
 import java.util.*;
 public class SortCharacters {
     public static void main(String[] args){
-        Scanner sc = new Scanner (System.in);
+       Scanner sc = new Scanner (System.in);
        String str = sc.nextLine();
 
        int[] freq = new int[26];
        for(char ch : str.toCharArray()){
           if(ch >= 'A' && ch<= 'Z'){
-        freq[ch - 'A']++;             // convert character to index 'ch' - 'a'
+         freq[ch - 'A']++;             // convert character to index 'ch' - 'a' | 'A' = 65 |  'C' - 'A' | 67 - 65 = 2
        }
        else if(ch >= 'a' && ch<= 'z'){
-        freq[ch - 'a']++;        
+        freq[ch - 'a']++;        //'a' = 97
        }
        }
 

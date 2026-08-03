@@ -33,7 +33,7 @@ public class SubarraySumEqualsK {
     for(int i=0; i< nums.length; i++){
         currentsum+=nums[i];
         if(map.containsKey(currentsum-k)){
-                count+= map.get(currentsum-k);
+          count+= map.get(currentsum-k);
         }
            map.put(currentsum ,map.getOrDefault(currentsum,0)+1);
     }

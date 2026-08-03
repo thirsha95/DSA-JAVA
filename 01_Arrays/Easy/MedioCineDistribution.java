@@ -74,8 +74,9 @@ If at least one value is double (double/int), result becomes decimal, so CEIL/FL
 
 //int days = (int) Math.ceil((double) n / l);
 
-//or Math.ceil((int)(highrisk/(float)/l))
-//  Math.ceil((int)(lowrisk/(float)/l))
+// OR
+// int highriskDays = (int) Math.ceil(highrisk / (float) l);
+// int lowriskDays  = (int) Math.ceil(lowrisk / (float) l);
 
 /*
 FLOOR → Rounds DOWN to nearest smaller integer (drops decimal part)

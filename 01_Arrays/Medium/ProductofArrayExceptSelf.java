@@ -50,6 +50,9 @@ class ProductofArrayExceptSelf{
         product*=nums[i];
         rightproduct[i]=product;
     }
+     res[0] = rightproduct[1]; //first last
+    res[n-1]= leftproduct[n-2];//last
+    
     for(int i=1; i<n-1; i++){
         res[i]=leftproduct[i-1]*rightproduct[i+1];
     }

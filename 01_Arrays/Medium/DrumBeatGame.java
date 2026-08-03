@@ -78,8 +78,9 @@ public class DrumBeatGame {
         int beats =0;
         while(true){
         int[] res = new int[n];
-        for(int i=0; i<jersey.length; i++){
-            res[board[i]-1] = jersey[i];
+        for(int i=0; i<jersey.length; i++){ // board stores positions starting from 1. // Arrays use indices starting from 0.
+            res[board[i]-1] = jersey[i]; // So subtract 1 to convert the position into a valid array index.
+                              
         }
         beats++;
         jersey = res;//Now we want the next beat to start from this new arrangement.

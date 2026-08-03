@@ -26,10 +26,10 @@ public class LowestNumberFormation {
     int temp = num;
     int length =0;// creating n : length or size for array
     while( temp >0){
-     length++;
+    length++;
     temp=temp/10;
   }
-  temp = num;
+   temp = num;
    int[] arr = new int[length];
    //now put nums value as array elements
 

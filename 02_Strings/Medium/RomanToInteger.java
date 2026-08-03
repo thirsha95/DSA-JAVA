@@ -1,3 +1,45 @@
+/*
+ * Folder:
+ * Strings/Medium
+ *
+ * File Name:
+ * RomanToInteger.java
+ *
+ * Problem:
+ * Roman to Integer
+ *
+ * Description:
+ * Convert a Roman numeral string into its integer value.
+ *
+ * Pattern:
+ * Reverse Traversal + HashMap
+ *
+ * Approach:
+ * - Store Roman symbols and their values using HashMap.
+ * - Traverse the string from right to left.
+ * - Compare current value with the previous (right side) value.
+ * - If current value is smaller, subtract it.
+ * - Otherwise, add it.
+ *
+ * Key Idea:
+ * Small value before a bigger value means subtraction.
+ * While scanning from right to left:
+ * curr < prev  → subtract
+ * curr >= prev → add
+ *
+ * Example:
+ * Input:
+ * MCMIV
+ *
+ * Output:
+ * 1904
+ *
+ * Time Complexity:
+ * O(n)
+ *
+ * Space Complexity:
+ * O(1)
+ */
 package Strings.Medium;
 
 import java.util.*;
